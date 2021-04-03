@@ -1,0 +1,1 @@
+create table messengerdb.messanges(id numeric, ip text, msg text, thedate text);
