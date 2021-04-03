@@ -16,4 +16,4 @@
 ## What I have learned from this project
 
 - SQL
-- handling databases
+- Handling databases
