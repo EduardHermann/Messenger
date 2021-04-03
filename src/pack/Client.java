@@ -141,7 +141,7 @@ public class Client {
    */
   public boolean connectToServer() {
     try {
-      client = new Socket("IpAddress", 5133);
+      client = new Socket("IpAddress", Port);
       // The in- and output streams getting converted into more efficient data processors.
       writer = new PrintWriter(client.getOutputStream());
       reader = new BufferedReader(new InputStreamReader(client.getInputStream()));
