@@ -70,7 +70,7 @@ public class Server {
   public boolean runServer() {
     try {
       // Trys to create a local hosted server on port 5133.
-      server = new ServerSocket(5133);
+      server = new ServerSocket(Port);
       clientOutputStream = new ArrayList<>();
       printTextToConsole("The server got started!", SERVER_IMPORTANT);
       try {
