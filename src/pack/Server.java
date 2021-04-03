@@ -47,9 +47,9 @@ public class Server {
   private ArrayList<PrintWriter> clientOutputStream;
 
   // The needed input for creating a connection to the database.
-  private final String url = "jdbc:mysql://127.0.0.1:3306/messengerdb";
-  private final String user = "eduard";
-  private final String password = "E1!2duard";
+  private final String url = "jdbc:mysql://IpAddressPort/messengerdb";
+  private final String user = "username";
+  private final String password = "password";
 
   private final int SERVER_IMPORTANT = 1;
   private final int SERVER_NORMAL = 0;
