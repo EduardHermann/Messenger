@@ -1,4 +1,4 @@
-# MessengerServerDatabase
+# Messenger
 
 ## Description
 
