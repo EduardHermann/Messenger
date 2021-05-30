@@ -3,9 +3,10 @@
 ## Description
 
 - With the use of this messenger several people are able to send messages to each other.
-- Whenever a client connects to the server the latest data is getting read in by the server and are getting send to the currently connecting client in order to make the user/client able to look up the latest messages.
+- Whenever a client connects to the server the latest data is getting read in by the server from the database and is getting send to all currently connected clients in order to make them able to look up the latest messages.
 - The user is able to send a message to all clients which are connected to the server by passing in a name and the content of the message.
-- In addition to that the server sends the message to all clients with the current date. 
+- In addition to that the server sends the message to all clients with the current date.
+- There are two messengers located in this repository "MessengerServer" is just a simple blueprint of a server and a client which are connected to each other without the named database. "MessengerSeverDatabase" is the equivalent to "MessengerServer" but with an "added database".
 
 ## How to start the program
 
