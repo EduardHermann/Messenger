@@ -18,5 +18,7 @@
 
 ## What I have learned from this project
 
+- Communication between a client and a server
+- Servers in general
 - SQL
 - Handling databases
