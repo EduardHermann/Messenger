@@ -15,7 +15,7 @@
 - Make sure that the server host and the client users are turning off their unknown network blocking programs.
 - Besides that the host needs to give the users the attached jar file in order to make them able to join the server.
 - The user needs to double click on the "MessengerServer.jar"/"MessengerServerDatabase.jar" file whenever the host is hosting the server in order to be able to send messages.
-- !!!Attention, you need at least Java 1.8 and windows installed on your pc in order to correctly start my program!!!
+- !!!Attention, you need at least Java 1.8/1.15 and windows installed on your pc in order to correctly start my program!!!
 
 ## What I have learned from this project
 
